@@ -1,0 +1,138 @@
+.con{
+    width: 85%;
+    /* height: 1200px; */
+    margin: 0px auto;
+    padding: 20px;
+    /* background-color: aquamarine; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.con1{
+    width: 100%;
+    display: flex;
+align-items: center;    justify-content: space-around;
+}
+.contact-div-1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+width:500px;
+height: 200px;
+font-size: small;
+background-color: white;
+border-radius: 2rem;
+
+}
+.contact-div-2{
+width: 250px;
+padding: 10px;
+height: 100%;
+border-radius: 2rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+justify-content: space-between;
+/* text-align: center; */
+}
+.type-of-contact{
+    width: 200px;
+    height: 130px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.type-of-contact p{
+    text-transform: lowercase;
+    text-align: center;
+}
+h1{
+    color: black;
+    text-transform: uppercase;
+}
+.con-icon{
+    font-size: 40px;
+    background-color: #5145F0;
+    padding: 10px;
+    border-radius: 1rem;
+}
+.form-div{
+    width: 100%;
+    height: 600px;
+    /* background-color: #5145F0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 50%;
+    height: 100%;
+    background-color: #beb7be00;
+    backdrop-filter: blur(30px);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.form-detail{
+    width: 75%;
+    height: 70px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+.form-message{
+    width: 75%;
+    height: 200px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    color: black;
+    border-radius: 1rem;
+    border: none;
+    padding-left: 10px;
+    font-size: small;
+}
+.input1{
+    width: 100%;
+    height: 90%;
+    color: black;
+    border-radius: 1rem;
+    border: none;
+    padding-left: 10px;
+    font-size: small;
+}
+.msg-btn{
+    width: 100px;
+    height: 40px;
+    color: black;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 1rem;
+    background-color:red;
+    padding: 2px;
+    border: none;
+}
+.msg-btn:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
