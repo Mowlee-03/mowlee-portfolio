@@ -1,184 +1,130 @@
 import React from 'react'
 import checkmark from '../../Assets/checkmark.png'
 import './skill.css'
+import html from '../../Assets/skill icons/html-5.png'
+import css from '../../Assets/skill icons/css-3.png'
+import js from '../../Assets/skill icons/js.png'
+import react from '../../Assets/skill icons/atom.png'
+import git from '../../Assets/skill icons/social.png'
+import node from '../../Assets/skill icons/nodejs.png'
+import python from '../../Assets/skill icons/python.png'
+import photoshop from '../../Assets/skill icons/photoshop.png'
+
 const Skill = () => {
   return (
     <>
     <section id="skills">
-    <h1 class="title1">Skills</h1>
-    <div class="skill-details-container">
-        <div class="skills-div">
-          <h2 class="skill-sub-title">Soft Skills</h2>
-          <div class="article-container">
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>Good Communication</h3>
-              </div>
-            </article>
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>Problem Solving</h3>
-              </div>
-            </article>
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>Adapatabillity</h3>
-              </div>
-            </article>
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>Time Management</h3>
-              </div>
-            </article>
-            <article>
-            <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>Presentation Skills</h3>
-              </div>
-            </article>
-            <article>
-            <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>Creativity</h3>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="skills-div">
-          <h2 class="skill-sub-title">Hard Skills</h2>
-          <div class="article-container">
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>HTML</h3>
-              </div>
-            </article>
-            <article>
-              <img
-             src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>CSS</h3>
-              </div>
-            </article>
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>JAVA Script</h3>
-              </div>
-            </article>
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>React JS</h3>
-              </div>
-            </article>
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>Front End Developement</h3>
-              </div>
-            </article>
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>Content Creator</h3>
-              </div>
-            </article>
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>Photoshop</h3>
-              </div>
-            </article>
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>Editing</h3>
-              </div>
-            </article>
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>Tally</h3>
-              </div>
-            </article>
-            <article>
-              <img
-                src={checkmark}
-                alt="skill icon"
-                class="icon1"
-              />
-              <div>
-                <h3>MS Office</h3>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    <p class="more">Explore Detaily..</p>
+    <h1 class="title1">My Skills</h1>
+	<div className='skill-row-1'>
+		<div className='skill-detail'>
+			<marquee behavior="scroll" direction="">
+				<ul>
+				<li>Frontend Developing</li>
+				<li>Frontend Developing</li>
+				<li>Frontend Developing</li>
+				<li>Frontend Developing</li>
+				<li>Frontend Developing</li>
+				<li>Frontend Developing</li>
+				<li>Frontend Developing</li>
+				</ul>
+			</marquee>
+			<div className='skill-logo-div'>
+				<div className='skill-logo'>
+					<img className='s-logo' src={html} alt="" />
+					<p>HTML</p>
+				</div>
+				<div className='skill-logo'>
+					<img className='s-logo' src={css} alt="" />
+					<p>CSS</p>
+				</div>
+				<div className='skill-logo'>
+					<img className='s-logo' src={js} alt="" />
+					<p>JavaScript</p>
+				</div>
+				<div className='skill-logo'>
+					<img className='s-logo' src={react} alt="" />
+					<p>ReactJS</p>
+				</div>
+				<div className='skill-logo'>
+					<img className='s-logo' src={git} alt="" />
+					<p>GIT</p>
+				</div>
+			</div>
+			<div className='skill-logo-div'>
+				<div className='skill-logo'>
+					<img className='s-logo' src={node} alt="" />
+					<p>NodeJS</p>
+				</div>
+				<div className='skill-logo'>
+					<img className='s-logo' src={python} alt="" />
+					<p>Python</p>
+				</div>
+			</div>
+			<div className='skill-logo-div'>
+				<div className='skill-logo'>
+					<img className='s-logo' src={photoshop} alt="" />
+					<p>Photoshop</p>
+				</div>
+			</div>
+			<h3></h3>
+		</div>
+	</div>
+    <div class="skill-row-2">
+					<div class="basic-skil">
+						<div class="progress">
+							<div className='progress-head'>
+							<h3>Communication</h3>
+							<span>60%</span>
+							</div>
+							<span class="bar-div"><span class="communication"></span></span>
+						</div>
+					</div>
+					<div class="basic-skil">
+						<div class="progress">
+							<div className='progress-head'>
+							<h3>Problem-Solving</h3>
+							<span>70%</span>
+							</div>
+							<span class="bar-div"><span class="Problem-Solving"></span></span>
+						</div>
+					</div>
+					<div class="basic-skil">
+						<div class="progress">
+							<div className='progress-head'>
+							<h3>Creativity</h3>
+							<span>82%</span>
+							</div>
+							<span class="bar-div"><span class="Creativity"></span></span>
+						</div>
+					</div>
+					<div class="basic-skil">
+						<div class="progress">
+							<div className='progress-head'>
+							<h3>Presentation</h3>
+							<span>69%</span>
+							</div>
+							<span class="bar-div"><span class="Presentation"></span></span>
+						</div>
+					</div>
+					<div class="basic-skil">
+						<div class="progress">
+							<div className='progress-head'>
+							<h3>Flexibility</h3>
+							<span>70%</span>
+							</div>
+							<span class="bar-div"><span class="Flexibility"></span></span>
+						</div>
+					</div>
+					<div class="basic-skil">
+						<div class="progress">
+							<div className='progress-head'>
+							<h3>Adaptbaility</h3>
+							<span>95%</span>
+							</div>
+							<span class="bar-div"><span class="Adaptbaility"></span></span>
+						</div>
+					</div>
+		</div>
   </section>
 
     </>

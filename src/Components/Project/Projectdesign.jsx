@@ -9,9 +9,7 @@ const Projectdesign = (props) => {
                 alt="Project 1"
                 class="project-img"
               />
-            </div>
-            <h2 class="">{props.name}</h2>
-            <div class="btn-container">
+              <div class="btn-container pos">
               <a href={props.gitlink}>
               <button
                 class="btn btn-color-2 project-btn"
@@ -29,6 +27,8 @@ const Projectdesign = (props) => {
               </a>
               
             </div>
+            </div>
+            <h4 class="">{props.name}</h4>
           </div>
     </>
   )

@@ -7,46 +7,56 @@ const About = () => {
   return (
     <>
  <div id="about">
-      <h1 class="title1 ">About Me</h1>
-      <div class="about-main">
-        <div class="about-pic-div">
-          <img
-            src={profileimg2}
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        
-        <div class="about-details-div">
-          <div class="about-containers">
-            <div class="details-container">
+ <div class="my-lines">
+            <p><span>OBJECTIVE:</span>Secure a responsible career oppurtunity to fully utilize my training and skills,while making a significant contribution to the success of the company,And I am seeking a role in a company where i can contribute my ideas and be mentored towards a successful career.</p>
+            <div class="about-pic-div">
               <img
-                src={exper}
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Degree</h3>
-              <p>Beachlor of commerce with Computer applicationErode Arts and Science college,Erode.</p>
+               src={profileimg2}
+               alt="Profile picture"
+                class="about-pic"
+             />
             </div>
-            <div class="details-container">
-              <img
-                src={education}
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>School</h3>
-              <p>HSLC-85% SSLC-78%Komarapa Sengunthar Hr.Sec.School, Chennimalai,Erode.</p>
-            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum perferendis porro, commodi facere voluptates excepturi nesciunt voluptate. Architecto, hic. Optio magnam at rerum pariatur commodi repudiandae totam fugit perferendis eum corporis exercitationem dolores illo impedit distinctio beatae, temporibus veniam ipsam porro ipsum dignissimos quam. Rerum qui expedita nam. Explicabo, suscipit?</p>
+			<h2>About me</h2>
+</div>
+<div class="about-main">
+  
+  <div className='about-navigation'>
+          <button className='nav-btn'>Education</button>
+          <button className='nav-btn'>Skills</button>
+  </div>
+
+  <div class="about-containers">
+      <div class="row">
+    			<div class="education">
+    				<div class="detail-div">
+    					<span class="date">2021-2024</span>
+    					<h2>Bachelor's Degree of Commerce with Computer apllication</h2>
+    					<span class="position">Erode Arts and science college,Erode,Tamilnadu</span>
+    				</div>
+    				<div class="detail-div">
+    					<span class="date">2019-2021</span>
+    					<h2>Higher Secondary's</h2>
+    					<span class="position">Komarapa Sengunthar Hr.Sec.School,Chennimalai,Erode,Tamilnadu</span>
+    				</div>
+    				
+    			</div>
+
+    			<div class="education">
+    				<div class="detail-div">
+    					<span class="date">2024-2025</span>
+    					<h2>Full Stack Development</h2>
+    					<span class="position">Code Purple,Coimbatore</span>
+    				</div>
+    				<div class="detail-div">
+    					<span class="date">2018-2019</span>
+    					<h2>Secondary School</h2>
+    					<span class="position">Komarapa Sengunthar Hr.Sec.School,Chennimalai,Erode,Tamilnadu</span>
+    				</div>
+    			</div>
+    </div>
           </div>
-          <div class="text-container">
-            <h6>CAREER OBJECTIVE:</h6>
-            <p>Secure a responsible career oppurtunity to fully utilize my training and skills,while making a significant contribution to the success of the company,And I am seeking a role in a company where i can contribute my ideas and be mentored towards a successful career.</p>
-            <p>Date of birth:29-01-2004</p>
-            <p>Living in : Chennimalai,Erode</p>
-          </div>
-        </div>
       </div>
-      <p class="more">Get To Know More</p>
     </div> 
     </>
   )
