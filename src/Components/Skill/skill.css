@@ -2,14 +2,20 @@
     width: 100%;
     /* height: 500px; */
     /* background-color: brown; */
-    margin: 50px auto;
+    margin: 0px auto;
+    padding-top: 10vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
 }
-.skill-row-2 {
-    width: 55%;
+.skill-row-2{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.skill-grid {
+    width: 65%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -17,7 +23,17 @@
     gap: 50px;
     padding: 20px;
 }
-
+.skill-para{
+    text-align: start;
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+    border-radius: 5px;
+}
+.skill-para span{
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+}
 .progress{
     background-color:rgb(233, 233, 233);
     border-radius: 10px;
@@ -132,7 +148,7 @@
 
 .skill-row-1{
     /* background-color: aqua; */
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     /* height: 300px; */
 }
@@ -143,6 +159,7 @@
     gap: 40px;
 }
 .skill-detail marquee{
+    width: 98vw;
     display: flex;
     align-items:center ;
     justify-content: center;
@@ -160,13 +177,24 @@
     /* background-color: blue; */
 }
 .skill-logo-div{
-    width: 70%;
-    margin: 0 auto;
-    /* height: 100px; */
+    /* background-color:gray; */
+    display: flex;
+    justify-content:end;
+    gap: 40px;
+}
+.skill-logo-div1{
+    width: 100%;
     /* background-color: yellow; */
     display: flex;
-    justify-content:center;
-    gap: 40px;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.skill-logo-div1 h4{
+    width: 300px;
+padding: 10px;
+background-color: rgb(214, 214, 214) ;
+border-radius: 5px;
 }
 .skill-logo{
     height: 120px;
@@ -180,11 +208,11 @@
     border-radius: 10px;
     filter: saturate(0%);
     border: 3px solid orange;
+    transition:all 0.5s ease;
 
 }
 .skill-logo:hover{
     filter: saturate(100%);
-    transition: 0.5s;
     transform: scale(1.08);
     background-color: rgb(6, 2, 1);
     color: white;

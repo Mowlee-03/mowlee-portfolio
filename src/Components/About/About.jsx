@@ -4,24 +4,31 @@ import profileimg2 from '../../Assets/IMG_6658.JPG'
 import education from "../../Assets/education.png"
 import exper from '../../Assets/experience.png'
 const About = () => {
+	
   return (
     <>
- <div id="about">
- <div class="my-lines">
-            <p><span>OBJECTIVE:</span>Secure a responsible career oppurtunity to fully utilize my training and skills,while making a significant contribution to the success of the company,And I am seeking a role in a company where i can contribute my ideas and be mentored towards a successful career.</p>
-            <div class="about-pic-div">
+ <div id="about" >
+ <div class="my-lines" >
+            <p>Secure a responsible career oppurtunity to fully utilize my training and skills,while making a significant contribution to the success of the company,And I am seeking a role in a company where i can contribute my ideas and be mentored towards a successful career.</p>
+            <div class="about-pic-div" >
               <img
                src={profileimg2}
                alt="Profile picture"
                 class="about-pic"
              />
             </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum perferendis porro, commodi facere voluptates excepturi nesciunt voluptate. Architecto, hic. Optio magnam at rerum pariatur commodi repudiandae totam fugit perferendis eum corporis exercitationem dolores illo impedit distinctio beatae, temporibus veniam ipsam porro ipsum dignissimos quam. Rerum qui expedita nam. Explicabo, suscipit?</p>
-			<h2>About me</h2>
+
+            <div className='personal-det-div'>
+				<p>Fullname:<span>S.Mowleeshwaran</span></p>
+				<p>D.O.B:<span>29.01.2004</span></p>
+				<p>Living:<span>Tamilnadu,India</span></p>
+				<p>Email:<span>mowleemm@gmail.com</span></p>
+			</div>
+			<h3>About me:</h3>
 </div>
 <div class="about-main">
   
-  <div className='about-navigation'>
+  <div className='about-navigation' >
           <button className='nav-btn'>Education</button>
           <button className='nav-btn'>Skills</button>
   </div>

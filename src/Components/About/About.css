@@ -1,5 +1,6 @@
 
 #about {
+    padding-top: 10vh;
     width: 100%;
     /* margin: 50px auto; */
     /* text-align: center; */
@@ -7,6 +8,17 @@
     flex-direction: column;
     justify-content: space-between;
     /* background-color: blue; */
+}
+.personal-det-div{
+    width: 30%;
+    /* background-color: aqua; */
+    text-align: start;
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.personal-det-div p span{
+color: white;
 }
 
 .title1{
@@ -24,7 +36,7 @@
 }
 .my-lines{
     height: 300px;
-    background-color:black;
+    background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,11 +47,11 @@
     color: orange;
     /* font-size: 5px; */
 }
-.my-lines h2{
+.my-lines h3{
     color: white;
     position: absolute;
     right: 500px;
-    top: 10px;
+    top: 50px;
 }
 .about-pic-div{
     width: 250px;

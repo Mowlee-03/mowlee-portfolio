@@ -1,5 +1,8 @@
-
 const Projectdesign = (props) => {
+  function newtab() {
+    window.open(props.url)
+  }
+
   return (
     <>
       <div class="project-detail">
@@ -18,13 +21,13 @@ const Projectdesign = (props) => {
               </button>
               </a>
               
-              <a href={props.url}>
-              <button
+              {/* <a href={props.url}> */}
+              <button onClick={newtab}
                 class="btn btn-color-2 project-btn"
               >
                 Live Demo
               </button>
-              </a>
+              {/* </a> */}
               
             </div>
             </div>

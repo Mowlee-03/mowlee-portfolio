@@ -1,13 +1,13 @@
 
   /* PROFILE SECTION */
   
-  .profile {
+  #profile {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    height: 600px;
-    margin: 50px auto;
+    height: 90vh;
+    margin: 0px auto;
     /* background-color: green; */
   }
   

@@ -28,6 +28,9 @@ const Skill = () => {
 				<li>Frontend Developing</li>
 				</ul>
 			</marquee>
+	<p className='skill-para'>As a <span>Full stack developer</span>, the skills that i using for developing a websites...</p>
+<div className='skill-logo-div1'>
+			<h4>Front-End-Development</h4>
 			<div className='skill-logo-div'>
 				<div className='skill-logo'>
 					<img className='s-logo' src={html} alt="" />
@@ -50,6 +53,9 @@ const Skill = () => {
 					<p>GIT</p>
 				</div>
 			</div>
+</div>
+<div className='skill-logo-div1'>
+			<h4>Back-End-Development</h4>
 			<div className='skill-logo-div'>
 				<div className='skill-logo'>
 					<img className='s-logo' src={node} alt="" />
@@ -60,16 +66,21 @@ const Skill = () => {
 					<p>Python</p>
 				</div>
 			</div>
+</div>
+<div className='skill-logo-div1'>
+			<h4>Additional-Skills</h4>
 			<div className='skill-logo-div'>
 				<div className='skill-logo'>
 					<img className='s-logo' src={photoshop} alt="" />
 					<p>Photoshop</p>
 				</div>
 			</div>
-			<h3></h3>
+</div>
 		</div>
 	</div>
-    <div class="skill-row-2">
+	<div className='skill-row-2'>
+	<p className='skill-para'>My <span>Basic skills </span>, as a good employee...</p>
+	<div class="skill-grid">
 					<div class="basic-skil">
 						<div class="progress">
 							<div className='progress-head'>
@@ -125,6 +136,8 @@ const Skill = () => {
 						</div>
 					</div>
 		</div>
+	</div>
+    
   </section>
 
     </>

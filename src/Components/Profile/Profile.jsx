@@ -7,7 +7,7 @@ import pdf from '../../Assets/Mowleeresume.pdf'
 const Profile = () => {
   return (
     <>
-      <div class="profile">
+      <div id="profile">
       <div class="section__pic-container">
         <img  src={profileimg} alt="profile picture" />
       </div>

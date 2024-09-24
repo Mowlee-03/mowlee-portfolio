@@ -11,11 +11,9 @@ const Project = () => {
     <>
     <div id="projects">
       <h1 class="title1">Projects</h1>
-      <div className='spark-title'>
-        <img className='spark-icon' src={spark} alt="" />
-      <h2>My Latest Project that Live on the net.</h2>
-      <img className='spark-icon' src={spark} alt="" />
-      </div>
+	<p className='skill-para'>My recent<img className='spark-icon' src={spark} alt="" /><span>Live Projects</span><img className='spark-icon' src={spark} alt="" />
+  on net..</p>
+
     <div class='project-main-div'>
     <Projectdesign 
     img={ecom}
@@ -25,7 +23,7 @@ const Project = () => {
     />
           <Link to='/project'><div class="show-more">
           <GiArmoredBoomerang  class='iconssss'/>
-          <h2>Show More</h2>
+          <h3>Show More</h3>
           </div></Link>
     </div>
         </div>
