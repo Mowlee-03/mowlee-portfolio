@@ -24,7 +24,7 @@ const About = () => {
 				<p>Living:<span>Tamilnadu,India</span></p>
 				<p>Email:<span>mowleemm@gmail.com</span></p>
 			</div>
-			<h3>About me:</h3>
+			<h3>About me</h3>
 </div>
 <div class="about-main">
   
@@ -34,6 +34,7 @@ const About = () => {
   </div>
 
   <div class="about-containers">
+	<h1>EDUCATION</h1>
       <div class="row">
     			<div class="education">
     				<div class="detail-div">

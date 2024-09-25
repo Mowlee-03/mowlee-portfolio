@@ -58,7 +58,7 @@ color: white;
     height: 300px;
     overflow: hidden;
     border-left: 5px solid rgb(233, 1, 1);
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 .about-pic{
     width: 100%;
@@ -108,4 +108,76 @@ color: white;
 .date{
     /* font-size: 12px; */
     color: orange;
+}
+@media(max-width:1200px){
+    #about{
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+    .my-lines {
+        height: 355px;
+    }
+    .my-lines p{
+        width: 24%;
+        font-size: 14px;
+    }
+    .my-lines h3{
+        right: 180px;
+        top: 90px;
+    }
+.about-pic-div {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border: 5px solid rgb(233, 1, 1);
+    /* padding: 20px; */
+    border-radius: 100%;
+}
+.about-pic{
+    object-fit: cover;
+}
+.detail-div{
+    width: 275px;
+    height: 200px;
+    justify-content: center;
+}
+.about-main{
+    gap: 50px;
+}
+.detail-div h2{
+    font-size: 15px;
+}
+}
+
+@media(max-width:700px){
+    .about-pic-div {
+        width: 100px;
+        height: 105px;
+    }
+    .my-lines{
+        height: 265px;
+        justify-content:start;
+        padding-left: 20px;
+        gap: 15px;
+    }
+    .my-lines p{
+        font-size: 8px;
+        text-align: justify;
+    }
+    .my-lines h3{
+        top: 0;
+    }
+    .about-containers h1{
+        font-size: 25px;
+    }
+    .row{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .detail-div{
+        height: 165px;
+    }
+    .date{
+        font-size: 10px;
+    }
 }

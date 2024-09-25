@@ -121,3 +121,16 @@
 .spark-title h2{
     color: rgb(103, 94, 90);
 }
+
+@media(max-width:1200px){
+    .project-main-div{
+        width: 100%;
+    }
+    .project-imgdiv{
+        width: 280px;
+    }
+    .p{
+        height: 90vh;
+    }
+    
+}

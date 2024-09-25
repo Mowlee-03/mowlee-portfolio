@@ -44,3 +44,23 @@
     align-items: center;
     font-size: 20px;
 }
+
+
+@media(max-width:1200px){
+    .footer-main{
+        width: 85%;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer-media-icons{
+        width: 180px;
+        font-size: 15px;
+    }
+    .footer-main p{
+        font-size: 10px;
+    }
+    .footer{
+        height: 70px;
+    }
+    
+}

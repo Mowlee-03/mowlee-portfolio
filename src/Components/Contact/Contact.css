@@ -14,9 +14,8 @@
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    box-shadow: 10px 0px 22px -2px black;
+    border: rgb(255, 132, 0) 3px solid;
+    box-shadow: 3px -1px 10px -5px rgb(255, 127, 7);
     background-color: rgba(252, 252, 252, 0.459);
     margin: 2rem auto;
     padding: 0.5rem;
@@ -41,19 +40,30 @@
   .more{
     width: 150px;
     height: 30px;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 162, 0);
     backdrop-filter: blur(1rem);
     font-size: 12px;
     font-weight: 600;
     align-self: center;
-    padding-top: 7px;
+    padding-top: 5px;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0px 1px 10px -1px black;
+    border: rgb(255, 132, 0) 1px solid;
+    box-shadow: 3px -1px 10px -5px rgb(255, 127, 7);
     transition:all 0.7s ease-out;
 }
 .more:hover{
-    background: linear-gradient(140deg,#c29666 0%,#B0659E 50%,#f59b63 100%);
+    background: linear-gradient(140deg,#c29666 0%,#fecab8 50%,#f59b63 100%);
     transform: scale(1.1);
-    color: white;
+    color: rgb(0, 0, 0);
+}
+
+
+@media(max-width:1200px){
+ .contact-info-upper-container{
+  padding: 0;
+ }
+ #contact{
+  width: 85%;
+ }
 }
