@@ -55,7 +55,7 @@ const Skill = () => {
 			</div>
 </div>
 <div className='skill-logo-div1'>
-			<h4>Back-End-Development</h4>
+			<h4>Back-End-Development-(learning)</h4>
 			<div className='skill-logo-div'>
 				<div className='skill-logo'>
 					<img className='s-logo' src={node} alt="" />
