@@ -21,7 +21,7 @@ const Footer = () => {
             <FaGithub />
             <FaLinkedin  />
             </div>
-            <p>© 2024. All rights reserved by <a href="">mowlee</a></p>
+            <p className="copyrights">© 2024. All rights reserved by <a href="">mowlee</a></p>
         </div>
       </div>
     </>

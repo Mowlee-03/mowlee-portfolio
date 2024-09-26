@@ -67,3 +67,28 @@
   width: 85%;
  }
 }
+@media(max-width:700px){
+  .contact-info-container{
+    margin: 0;
+    padding: 10px;
+  }
+  .contact-info-container a{
+    font-size: 12px;
+  }
+  .icon {
+    height: 12px;
+}
+.contact-info-upper-container{
+  margin: 0;
+}
+#contact{
+  gap: 20px;
+  justify-content: center;
+  margin: 10px auto;
+}
+.more{
+  width: 100px;
+  height: 20px;
+  font-size: 6px;
+}
+}

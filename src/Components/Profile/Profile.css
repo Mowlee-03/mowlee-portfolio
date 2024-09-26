@@ -170,5 +170,13 @@ object-fit: cover;
   #profile{
     height: 100vh;
     flex-direction: column;
+    gap: 20px;
   }
+  .btn-container{
+    flex-direction: column;
+}
+.section__text{
+  width: 100%;
+  gap: 10px;
+}
 }

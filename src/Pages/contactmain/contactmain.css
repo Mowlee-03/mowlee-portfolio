@@ -277,3 +277,50 @@ height: 150px;
     height: 70vh;
 }
 }
+@media(max-width:700px){
+    .con1 {
+        height: 100%;
+        flex-direction: column;
+        gap: 0;
+        background-position: top;
+        background-size: 100px;
+    }
+    .contact-div-1 h1 {
+        font-size: 8px;
+    }
+    .contact-div-1 p {
+        padding: 10px 15px;
+        font-size: 8px;
+        width: 100%;
+    }
+    .contact-div-2{
+        flex-direction: row;
+    }
+    .form-div{
+        height: 100%;
+    }
+    .form{
+        width: 90%;
+    }
+    .input{
+        height: 25px;
+        font-size: 8px;
+    }
+    .form-detail label{
+        font-size: 8px;
+    }
+    .form-message label{
+        font-size: 8px;
+    }
+    .form-detail{
+        gap: 5px;
+    }
+    .form-message{
+        height: 100%;
+        gap: 5px;
+    }
+    .input1{
+        height: 110px;
+
+    }
+}

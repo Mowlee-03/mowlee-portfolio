@@ -134,3 +134,23 @@
     }
     
 }
+
+@media(max-width:700px){
+   .show-more{
+    width: 100%;
+    height: 100px;
+   } 
+   .project-imgdiv {
+    width: 100%;
+}
+.btn{
+    width: 4rem;
+    padding: 0;
+}
+.pos{
+    flex-direction: column;
+}
+.project-detail h4{
+    font-size: 8px;
+}
+}

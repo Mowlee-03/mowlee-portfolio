@@ -31,11 +31,11 @@
         transform: translateY(10px);
     }
 }
-.footer-main p{
+.copyrights{
     color: rgb(7, 7, 7);
 }
-.footer-main p a{
-    color: rgb(7, 7, 7);
+.copyrights a{
+    color: rgb(253, 3, 3);
 }
 .footer-media-icons{
     width: 300px;
@@ -56,11 +56,31 @@
         width: 180px;
         font-size: 15px;
     }
-    .footer-main p{
+    .copyrights{
         font-size: 10px;
     }
     .footer{
         height: 70px;
     }
     
+}
+@media(max-width:700px){
+    .footer{
+        height: 135px;
+    }
+    .footer-main{
+        flex-direction: column;
+    }
+    .boy {
+        height: 50px;
+    }
+    .boy-bye{
+        top: 10px;
+        font-size: 6px;
+        padding: 5px 10px;
+        left: 110px;
+    }
+    .footer-media-icons{
+        font-size: 11px;
+    }
 }
