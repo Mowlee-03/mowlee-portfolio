@@ -15,11 +15,11 @@ const Footer = () => {
           <img className='boy' src={bye} alt="" />
           <p className='boy-bye'>bye!!!</p>
             <div class='footer-media-icons'>
-            <FaFacebook />
-            <FaInstagram />
-            <FaXTwitter />
-            <FaGithub />
-            <FaLinkedin  />
+            <FaInstagram onClick={()=>{window.open('https://www.instagram.com/mo_wlee_03/')}} />
+            <FaFacebook onClick={()=>{window.open('https://www.facebook.com/mowlee.fb')}} />
+            <FaXTwitter onClick={()=>{window.open('')}} />
+            <FaGithub onClick={()=>{window.open('https://github.com/Mowlee-03')}} />
+            <FaLinkedin  onClick={()=>{window.open('https://www.linkedin.com/in/mowleeshwaran-pr0file/')}} />
             </div>
             <p className="copyrights">© 2024. All rights reserved by <a href="">mowlee</a></p>
         </div>

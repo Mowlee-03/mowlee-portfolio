@@ -5,6 +5,12 @@ import gitimg from '../../Assets/github.png'
 import linkin from '../../Assets/linkedin.png'
 import pdf from '../../Assets/Mowleeresume.pdf'
 const Profile = () => {
+  function contactscroll() {
+    let element=document.getElementById('contact')
+    element?.scrollIntoView({
+      behavior:'smooth',
+    })
+  }
   return (
     <>
       <div id="profile">
@@ -24,7 +30,7 @@ const Profile = () => {
           </button>
           </a>
           
-          <button class="btn btn-color-1">
+          <button onClick={contactscroll} class="btn btn-color-1">
             Contact Info
           </button>
         </div>

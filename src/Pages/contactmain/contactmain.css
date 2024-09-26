@@ -71,7 +71,7 @@ justify-content: space-between;
     gap: 7px;
     padding: 20px 10px;
     overflow: hidden;
-    transition: 1s all;
+    transition: 1s all;color: black;
 
 }
 .type-of-contact p{
