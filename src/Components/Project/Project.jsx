@@ -21,12 +21,6 @@ const Project = () => {
     gitlink='https://github.com/Mowlee-03/mowleeshwaran'
     url='https://mowleeshwaran-minimalin-electronic-page-ecom.vercel.app/'
     />
-    <Projectdesign 
-    img={ecom}
-    name='E-Commerce Website Design'
-    gitlink='https://github.com/Mowlee-03/mowleeshwaran'
-    url='https://mowleeshwaran-minimalin-electronic-page-ecom.vercel.app/'
-    />
           <Link to='/project'><div class="show-more">
           <GiArmoredBoomerang  class='iconssss'/>
           <h3>Show More</h3>

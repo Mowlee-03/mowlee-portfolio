@@ -7,7 +7,9 @@
     /* border-radius: 50px; */
     background:#161820 ;
     /* box-shadow: 0px 25px 28px -21px black; */
-    position: sticky;
+    position:fixed;
+    width: 100%;
+    left: 0;
     top: 0px;
     z-index: 1;
 }

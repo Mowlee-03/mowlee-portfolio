@@ -35,7 +35,7 @@ let sidebar=document.querySelector('.resposive-navbar')
 
   return (
     <>
-    <nav id="desktop-nav">
+    <nav id="desktop-nav" data-aos="fade-down">
       <div class='nav '>
       <div class="logo">PORTFOLIO</div>
       <ul class="nav-links">
@@ -47,7 +47,7 @@ let sidebar=document.querySelector('.resposive-navbar')
       </ul>
       </div>
     </nav>
-    <div className='resposive-navbar'>
+    <div className='resposive-navbar'  data-aos="fade-left">
       <div className='menus-div'>
         <p>Menu</p> <button id='menu-btn' onClick={togglebtn}><TbMenu2 /></button>
       </div>

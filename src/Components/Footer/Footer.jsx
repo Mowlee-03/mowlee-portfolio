@@ -10,7 +10,7 @@ import bye from '../../Assets/hi.png'
 const Footer = () => {
   return (
     <>
-      <div class='footer'>
+      <div class='footer' >
         <div class='footer-main'>
           <img className='boy' src={bye} alt="" />
           <p className='boy-bye'>bye!!!</p>

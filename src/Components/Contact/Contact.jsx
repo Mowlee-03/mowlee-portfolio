@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 import email from '../../Assets/email.png'
 import linkin from '../../Assets/linkedin.png'
-
+import { Link } from 'react-router-dom'
 const Contact = () => {
   return (
     <>
@@ -26,7 +26,7 @@ const Contact = () => {
     <p><a href="https://www.linkedin.com/in/mowleeshwaran-pr0file/">LinkedIn</a></p>
   </div>
 </div>
-<p class="more more-contact">More Contact...</p>
+<Link to={'/contact'}><p class="more more-contact">More Contact...</p></Link>
 
 </div>
     </>

@@ -7,7 +7,7 @@ const About = () => {
 	
   return (
     <>
- <div id="about" >
+ <div id="about">
  <div class="my-lines" >
             <p>Secure a responsible career oppurtunity to fully utilize my training and skills,while making a significant contribution to the success of the company,And I am seeking a role in a company where i can contribute my ideas and be mentored towards a successful career.</p>
             <div class="about-pic-div" >
@@ -18,7 +18,7 @@ const About = () => {
              />
             </div>
 
-            <div className='personal-det-div'>
+            <div className='personal-det-div' >
 				<p>Fullname:<span>S.Mowleeshwaran</span></p>
 				<p>D.O.B:<span>29.01.2004</span></p>
 				<p>Living:<span>Tamilnadu,India</span></p>
@@ -37,12 +37,12 @@ const About = () => {
 	<h1>EDUCATION</h1>
       <div class="row">
     			<div class="education">
-    				<div class="detail-div">
+    				<div class="detail-div" data-aos="flip-right">
     					<span class="date">2021-2024</span>
     					<h2>Bachelor's Degree of Commerce with Computer apllication</h2>
     					<span class="position">Erode Arts and science college,Erode,Tamilnadu</span>
     				</div>
-    				<div class="detail-div">
+    				<div class="detail-div" data-aos="flip-right">
     					<span class="date">2019-2021</span>
     					<h2>Higher Secondary's</h2>
     					<span class="position">Komarapa Sengunthar Hr.Sec.School,Chennimalai,Erode,Tamilnadu</span>
@@ -51,12 +51,12 @@ const About = () => {
     			</div>
 
     			<div class="education">
-    				<div class="detail-div">
+    				<div class="detail-div" data-aos="flip-left">
     					<span class="date">2024-2025</span>
     					<h2>Full Stack Development</h2>
     					<span class="position">Code Purple,Coimbatore</span>
     				</div>
-    				<div class="detail-div">
+    				<div class="detail-div" data-aos="flip-left">
     					<span class="date">2018-2019</span>
     					<h2>Secondary School</h2>
     					<span class="position">Komarapa Sengunthar Hr.Sec.School,Chennimalai,Erode,Tamilnadu</span>

@@ -13,22 +13,11 @@ const Projectdesign = (props) => {
                 class="project-img"
               />
               <div class="btn-container pos">
-              <a href={props.gitlink}>
-              <button
-                class="btn btn-color-2 project-btn"
-              >
-                Github
-              </button>
-              </a>
-              
-              {/* <a href={props.url}> */}
               <button onClick={newtab}
                 class="btn btn-color-2 project-btn"
               >
                 Live Demo
               </button>
-              {/* </a> */}
-              
             </div>
             </div>
             <h4 class="">{props.name}</h4>

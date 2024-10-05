@@ -81,7 +81,7 @@ const Skill = () => {
 	<div className='skill-row-2'>
 	<p className='skill-para'>My <span>Basic skills </span>, as a good employee...</p>
 	<div class="skill-grid">
-					<div class="basic-skil">
+					<div class="basic-skil" data-aos="flip-right">
 						<div class="progress">
 							<div className='progress-head'>
 							<h3>Communication</h3>
@@ -90,7 +90,7 @@ const Skill = () => {
 							<span class="bar-div"><span class="communication"></span></span>
 						</div>
 					</div>
-					<div class="basic-skil">
+					<div class="basic-skil" data-aos="flip-left">
 						<div class="progress">
 							<div className='progress-head'>
 							<h3>Problem-Solving</h3>
@@ -99,7 +99,7 @@ const Skill = () => {
 							<span class="bar-div"><span class="Problem-Solving"></span></span>
 						</div>
 					</div>
-					<div class="basic-skil">
+					<div class="basic-skil" data-aos="flip-right">
 						<div class="progress">
 							<div className='progress-head'>
 							<h3>Creativity</h3>
@@ -108,7 +108,7 @@ const Skill = () => {
 							<span class="bar-div"><span class="Creativity"></span></span>
 						</div>
 					</div>
-					<div class="basic-skil">
+					<div class="basic-skil" data-aos="flip-left">
 						<div class="progress">
 							<div className='progress-head'>
 							<h3>Presentation</h3>
@@ -117,7 +117,7 @@ const Skill = () => {
 							<span class="bar-div"><span class="Presentation"></span></span>
 						</div>
 					</div>
-					<div class="basic-skil">
+					<div class="basic-skil" data-aos="flip-right">
 						<div class="progress">
 							<div className='progress-head'>
 							<h3>Flexibility</h3>
@@ -126,7 +126,7 @@ const Skill = () => {
 							<span class="bar-div"><span class="Flexibility"></span></span>
 						</div>
 					</div>
-					<div class="basic-skil">
+					<div class="basic-skil" data-aos="flip-left">
 						<div class="progress">
 							<div className='progress-head'>
 							<h3>Adaptbaility</h3>
