@@ -2,8 +2,9 @@
     width: 80%;
 
     margin: 20px auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(2,1fr); */
     gap: 30px;
     /* background-color: aqua; */
     align-items: center;
