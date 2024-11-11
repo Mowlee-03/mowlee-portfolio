@@ -7,15 +7,16 @@
 }
 
 .con1{
-    width: 85%;
+    width: 100%;
     display: flex;
     /* background-color: #5145F0; */
-    background: url(../../Assets/computer-engineer.png);
+    background: url(../../Assets/IMG20241027160053.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 align-items: center; 
-   justify-content: space-between;
+   justify-content: space-around;
+   box-shadow: 1px 2px 10px black;
 }
 .contact-div-1{
     display: flex;
