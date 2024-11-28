@@ -3,7 +3,7 @@ import './Profile.css'
 import profileimg from "../../Assets/IMG_3056.JPG"
 import gitimg from '../../Assets/github.png'
 import linkin from '../../Assets/linkedin.png'
-import pdf from '../../Assets/src/Assets/DOC-20240926-WA0000._20241102_173546_0000.pdf'
+import pdf from '../../Assets/Mowleeshwaran-Full stack developer-resume.pdf'
 const Profile = () => {
   function contactscroll() {
     let element=document.getElementById('contact')
